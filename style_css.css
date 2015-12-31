@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+html{
+	background-color: carbon;
+}
+
+#wrapper {
+	margin: 0 auto;
+	max-width:1200px;
+	}
+	
+#header {
+	background-color: #F0F0F0;
+}
+
+ul,li {
+	padding:0px;
+	margin:0px;
+}
+	
+section {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+#Baidu {
+	padding-top: 30px;
+	padding-right: auto;
+	padding-left: auto;
+	padding-bottom: 30px;
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	}
+
+
+#office {
+	text-align: center;
+	margin: auto;
+	line-height: 30px;
+	float:none;
+	
+}
+
+th,td {
+	cellspacing: 0px;
+	cellpadding: 2px;
+	width: auto;
+	padding: 1px;
+	border-spacing: 0px 0px;
+	border: thin solid #000000;
+  }
+table {
+	word-break: keep-all;
+	background-color: fafafa;
+	-webkit-box-shadow: 8px -2px;
+	box-shadow: 8px -2px;
+	empty-cells: hide;
+	margin: auto;
+	width: auto;
+	border-collapse: collapse;
+
+}
+tr:hover {
+	background-color:#F0F0F0;
+	}
+	
+th {
+	background-color:#F6F6F6;
+}
+
+td { 
+}
+
+/*Hightlight the cell*/
+.cellhightlight
+{
+	color: #FF0004;
+	font-weight: bold;
+	font-size: 110%;
+	text-align: undefined;
+	text-decoration: underline;
+	}
+
+a {
+	text-decoration: underline;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+ }
+a:hover
+{
+	text-decoration: underline;
+	color:#F3BA69;
+	}
+
+caption {
+	margin-bottom:20px
+}
+  
+#Platform {
+	text-align: center;
+	font-size: small;
+}
+
+footer {
+	margin-top: 40px;
+	padding: 10px;
+	text-align: center;
+	background-color: #F6F6F6;
+	border-top-width: thin;
+	border-top-style: solid;
+	}
+	
+
+/*ipad air 2 2048*1536 */
+@media screen and (max-width:1536px) and (orientation:portrait){
+	body {
+	margin:0 auto;
+	min-width:1536px;
+}
+}
+/*iphone 6 1334*750 */
+@media screen and (max-width:750px){
+	body {
+	margin:0 auto;
+	min-width:750px;
+}
+}
+
+/*iphone 6  plus 1920*1080 */
+@media screen and (max-width:1080px){
+	body {
+	margin:0 auto;
+	min-width:1080px;
+}
+}
+
+/*MBA  plus 1430*900 */
+
+@media screen and (max-width:1430px){
+	body {
+	margin:0 auto;
+	max-width:5120px;
+}
+}
+
+/*Samsung s6 9208 2560*1440 */
+@media screen and (max-width:1536px) and (orientation:portrait){
+	body {
+	margin:0 auto;
+	min-width:1440px;
+}
+}

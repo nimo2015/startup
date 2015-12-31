@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body
+{width:750px;}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 30px;
+	cellpadding:10px;
+  }
+td {
+	width: 90px;
+	height: 90px;
+	border-color: #F5BB0B;
+	background-color: #FFF9A3;
+	border-style: solid;
+	border-collapse: collapse;
+	text-align: center;
+	text-transform: capitalize;
+	vertical-align: middle;
+	word-break: keep-all;
+}
+
+section {
+	margin-bottom:30px;}
+	
+caption {
+	margin-bottom:30px;}
+	
